@@ -1,0 +1,33 @@
+using Afra.Domain.Entities.Base;
+using Afra.Infrastructure.Enum;
+
+using System;
+using System.Collections.Generic;
+
+namespace Afra.Domain.Entities
+{
+    public class BdgProjElmnt : BaseEntity
+    {
+          
+ 
+		public Int32 BdgProjElmntId { get; set; }  
+ 
+		public String BPETitle { get; set; }  
+ 
+		public Int32 BPEGrp { get; set; }  
+ 
+		public Int32 BPEParent { get; set; }  
+ 
+		public Int32 BPEUnit { get; set; }  
+ 
+		public Nullable<Int32> BPECurRef { get; set; }  
+ 
+		public Nullable<Double> BPERate { get; set; }  
+ 
+		public Int32 BPEPeriodId { get; set; }  
+ 
+		public String BPESLRef { get; set; } 
+    }
+}
+
+

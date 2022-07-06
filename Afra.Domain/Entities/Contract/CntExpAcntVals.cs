@@ -1,0 +1,27 @@
+using Afra.Domain.Entities.Base;
+using Afra.Infrastructure.Enum;
+
+using System;
+using System.Collections.Generic;
+
+namespace Afra.Domain.Entities
+{
+    public class CntExpAcntVals : BaseEntity
+    {
+          
+ 
+		public Int32 CntExpAcntValId { get; set; }  
+ 
+		public Int32 CEAVFldRef { get; set; }  
+ 
+		public Int32 CEAVExpAcntRef { get; set; }  
+ 
+		public Nullable<Double> CEAVAmount { get; set; }  
+ 
+		public Nullable<Int32> CEAVFormulRef { get; set; }  
+ 
+		public Nullable<Double> CEAVCurVal { get; set; } 
+    }
+}
+
+
